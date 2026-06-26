@@ -5,7 +5,7 @@ export default function AdminPage() {
   const [tab, setTab] = useState<"users" | "tags" | "strategies">("users");
   const [stats, setStats] = useState({ total_users: 0, active_users: 0, total_generations: 0, today_generations: 0 });
   const [users, setUsers] = useState<any[]>([]);
-  const [_tags, setTags] = useState<any[]>([]);
+  const [, setTags] = useState<any[]>([]);
   const [strategies, setStrategies] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedUser, setSelectedUser] = useState<any>(null);
