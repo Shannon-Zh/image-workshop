@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { generateApi } from "../../services/api";
-import { REFERENCE_MODES, ASPECT_RATIOS, type AspectRatioOption } from "../../types";
+import { REFERENCE_MODES, ASPECT_RATIOS } from "../../types";
 
 interface PromptOptimizerProps {
   userPrompt: string;
